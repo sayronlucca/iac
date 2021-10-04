@@ -1,0 +1,6 @@
+Resources:
+  MinhasBuckets:
+    Type: AWS::S3::Instance
+    Properties:
+      AccessControl: PublicRead
+      BucketName: "financeiro-empresa"
